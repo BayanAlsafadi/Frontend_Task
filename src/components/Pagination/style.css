@@ -1,0 +1,18 @@
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+
+.pagination a:hover{
+    background-color: rgba(186, 186, 186, 0.315);
+}
