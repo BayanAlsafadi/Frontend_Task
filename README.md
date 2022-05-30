@@ -1,20 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fronend Task
 
-## Available Scripts
+This project takes a collection of records and process it depending on specific filters and it's provided with sorting method to sort the data whether ascending or descinding per field.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of contents
+- About
+- Getting Started
+- Usage
+- Built Using
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+Run the following commands on your terminal inside the cloned repo to use the app
 
-### Deployment
+### Installation
+* NPM
+  ```sh
+  npm install npm@latest -g
+  ```
+* Clone the repo
+    ```sh
+    git clone https://github.com/your_username_/Project-Name.git
+    ```
+* Install needed packages
+    ```
+    npm i 
+    ```
+* Run the server
+    ```
+    npm start 
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| | |
+|-|-|
+|**NOTE** | You should have nodejs downloaded on your device
 
+
+## Usage
+
+* Below is the search bar where you can choose any of the categories then click on ``Search Logger`` to filter the results. You can also click on ```Reset Filters``` to reset the filters to it's default values.
+    ![search bar](http://url/to/img.png)
+
+* Here is the dashboard, where you can see 
+    - The records paginated on 10 pages
+    - The results of the filtering
+    - You can also sort any of the columns by clicking on the arrow, ```upper``` for ascending.
+    ![dashboard](http://url/to/img.png)
+
+
+## Built with
+
+* [React.js](https://reactjs.org/)
