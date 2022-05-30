@@ -45,7 +45,7 @@ Run the following commands on your terminal inside the cloned repo to use the ap
   - The records paginated on 10 pages
   - The results of the filtering
   - You can also sort any of the columns by clicking on the arrow, `upper` for ascending.
-    ![dashboard](./assets/dashboard_pagination.png)
+  ![dashboard](./assets/dashboard_pagination.png)
 
 ## Built with
 
