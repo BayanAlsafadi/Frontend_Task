@@ -38,7 +38,9 @@ Run the following commands on your terminal inside the cloned repo to use the ap
 
 ## Usage
 
-- Below is the search bar where you can choose any of the categories then click on `Search Logger` to filter the results. You can also click on `Reset Filters` to reset the filters to it's default values.
+- Below is the search bar where you can 
+  - Choose any of the categories then click on `Search Logger` to filter the results
+  - You can also click on `Reset Filters` to reset the filters to it's default values
   ![search bar](./assets/search_bar.png)
 
 - Here is the dashboard, where you can see
