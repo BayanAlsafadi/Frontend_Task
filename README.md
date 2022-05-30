@@ -52,3 +52,6 @@ Run the following commands on your terminal inside the cloned repo to use the ap
 ## Built with
 
 - [React.js](https://reactjs.org/)
+
+## Deployment
+You can find the task deployed [here](https://golden-gingersnap-89b1c1.netlify.app/))
