@@ -1,6 +1,6 @@
 import "./App.css";
 import SearchBar from "./components/SearchBar";
-import { createContext, useState, useEffect } from "react";
+import { createContext, useState } from "react";
 import Dashboard from "./components/Dashboard";
 import Pagination from "./components/Pagination";
 
