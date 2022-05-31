@@ -38,15 +38,20 @@ Run the following commands on your terminal inside the cloned repo to use the ap
 
 ## Usage
 
-- Below is the search bar where you can choose any of the categories then click on `Search Logger` to filter the results. You can also click on `Reset Filters` to reset the filters to it's default values.
+- Below is the search bar where you can 
+  - Choose any of the categories then click on `Search Logger` to filter the results
+  - You can also click on `Reset Filters` to reset the filters to it's default values
   ![search bar](./assets/search_bar.png)
 
 - Here is the dashboard, where you can see
   - The records paginated on 10 pages
   - The results of the filtering
   - You can also sort any of the columns by clicking on the arrow, `upper` for ascending.
-    ![dashboard](./assets/dashboard_pagination.png)
+  ![dashboard](./assets/dashboard_pagination.png)
 
 ## Built with
 
 - [React.js](https://reactjs.org/)
+
+## Deployment
+You can find the task deployed [here](https://golden-gingersnap-89b1c1.netlify.app/)
