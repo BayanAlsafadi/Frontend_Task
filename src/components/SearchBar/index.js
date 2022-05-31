@@ -148,11 +148,16 @@ const SearchBar = () => {
     setActionType("");
     setApplicationId("");
     setApplicationType("");
+
+    //-------------------------------------
     setSelectedActionType("none");
     setSelectedAppType("none");
     setSelectedToDate("");
     setSelectedFromDate("");
     setSelectedAppId("");
+    //-------------------------------------
+
+    setReset(false);
   };
   // ----------------------------------------------------------------------
 
@@ -163,7 +168,7 @@ const SearchBar = () => {
   // ----------------------------------------------------------------------
 
   useEffect(() => {
-    let filteredData = filterByActionType(currentData);
+    let filteredData = filterByActionType(data);
     filteredData = filterByApplicationType(filteredData);
     filteredData = filterByApplicationId(filteredData);
     filteredData = filterByToDate(filteredData);
